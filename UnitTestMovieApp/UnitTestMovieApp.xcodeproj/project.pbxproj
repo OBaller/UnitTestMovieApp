@@ -37,6 +37,7 @@
 		B451F2E3278C98A400A8A294 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451F2E2278C98A400A8A294 /* UIViewExtensions.swift */; };
 		B451F2E5278C98C200A8A294 /* NameDescribable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451F2E4278C98C100A8A294 /* NameDescribable.swift */; };
 		B451F2E7278C98EF00A8A294 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451F2E6278C98EF00A8A294 /* UICollectionViewExtension.swift */; };
+		B451F2EA278C9CDF00A8A294 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451F2E9278C9CDF00A8A294 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		B451F2E2278C98A400A8A294 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		B451F2E4278C98C100A8A294 /* NameDescribable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDescribable.swift; sourceTree = "<group>"; };
 		B451F2E6278C98EF00A8A294 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		B451F2E9278C9CDF00A8A294 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		B451F298278C528C00A8A294 /* UnitTestMovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				B451F2E8278C9B8D00A8A294 /* Base */,
 				B451F2D9278C95A300A8A294 /* Extensions */,
 				B451F2D0278C925D00A8A294 /* Provider */,
 				B451F2C9278C859500A8A294 /* Models */,
@@ -195,6 +198,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B451F2E8278C9B8D00A8A294 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B451F2E9278C9CDF00A8A294 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,6 +282,7 @@
 				B451F29E278C528D00A8A294 /* MovieListViewController.swift in Sources */,
 				B451F29A278C528C00A8A294 /* AppDelegate.swift in Sources */,
 				B451F2B2278C7DAA00A8A294 /* NetworkConstants.swift in Sources */,
+				B451F2EA278C9CDF00A8A294 /* BaseViewController.swift in Sources */,
 				B451F2B9278C823B00A8A294 /* ServiceProtocol.swift in Sources */,
 				B451F2DF278C976F00A8A294 /* ImageViewExtensions.swift in Sources */,
 				B451F2CF278C91BE00A8A294 /* MovieDetailModel.swift in Sources */,
