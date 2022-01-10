@@ -1,5 +1,5 @@
 //
-//  NetworkService.swift
+//  MovieDetailModel.swift
 //  UnitTestMovieApp
 //
 //  Created by naseem on 10/01/2022.
@@ -7,15 +7,19 @@
 
 import Foundation
 
-struct MovieListModel: Decodable {
+struct MovieDetailModel: Decodable {
+    
     var title: String?
     var posterPath: String?
+    var overview: String?
+    var voteCount: Int?
     var movieId: Int?
-    var isFavoriteMovie: Bool?
     
     enum CodingKeys: String, CodingKey {
-        case movieId = "id"
-        case title
         case posterPath = "poster_path"
+        case title
+        case overview
+        case voteCount = "vote_count"
+        case movieId = "id"
     }
 }
